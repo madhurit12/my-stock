@@ -1,0 +1,77 @@
+.head{
+    text-align: center;
+    padding: 3%;
+    font-size: 300%;
+    margin-bottom: 6%;
+    color: rgba(244, 247, 247, 0.856); 
+    background-color: #ad67a2;  
+}
+
+.body{
+    background-color: rgb(243, 210, 232);
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+form{
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+  
+.graph {
+    position: relative;
+    margin: auto;
+    height: 80vh;
+    width: 80vw;
+}
+
+footer{
+    color: #aa1779;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 0px;
+    font-size: 120%;
+}
+
+
+.button {
+display: inline-block;
+border-radius: 4px;
+background-color: #af5578;
+border: none;
+color: white;
+text-align: center;
+font-size: 15px;
+padding: 5px;
+width: 100px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+}
+
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.button:hover span {
+padding-right: 25px;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
+}
